@@ -8,9 +8,9 @@ pip install -r requirements.txt
 ```
 
 ## Setup requirements.txt
-
+```
 pip freeze > requirements.txt
-
+```
 
 ## Run steamlit app
 ```
