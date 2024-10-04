@@ -1,12 +1,18 @@
 # Proyek-AnalisisData
 
-# Set-up Enviroment Anaconda
-- conda create --name main-ds python=3.9
-= conda activate main-ds
-= pip install -r requirements.txt
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-# Set-up requirements.txt
+## Setup requirements.txt
+...
+
 pip freeze > requirements.txt
+...
 
-# Streamlit Run App
-streamlit run dashboard/dashboard.py
+## Run steamlit app
+```
+streamlit run dashboard/analisis_data.py
